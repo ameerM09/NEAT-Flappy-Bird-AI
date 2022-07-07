@@ -1,4 +1,7 @@
 # NEAT-Flappy-Bird-AI-Project
+
+## NEUROEVOLUTION OF AUGMENTING TOPOLOGIES
+
 Uses the NEAT module of Python to teach an AI how to play the game Flappy Bird.  
 
 This project invovled having a set of birds gather certain input to then move randomly on the screen.
