@@ -338,9 +338,11 @@ def main_game_loop(genomes, config):
 
 		pygame.display.update()
 
+# Gathering neural networks for each bird 
 def run(config_path):
 	config = neat.config.Config(neat.DefaultGenome, neat.DefaultReproduction, neat.DefaultSpeciesSet, neat.DefaultStagnation, config_path)
 
+# Setting other variables 
 	pop_size = neat.Population(config)
 	pop_size.add_reporter(neat.StdOutReporter(True))
 
@@ -351,5 +353,7 @@ def run(config_path):
 
 if __name__ == '__main__':
 	local_directory = os.path.dirname(__file__)
+	
+# Gathering our configuration text file with our fitness algorithm
 	config_path = os.path.join(local_directory, 'config.txt')	
 	run(config_path)
