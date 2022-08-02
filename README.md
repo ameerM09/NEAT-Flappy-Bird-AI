@@ -1,4 +1,4 @@
-# NEAT-Flappy-Bird-AI-Project
+# NEAT-Flappy-Bird-AI
 
 ## Neuroevolution of Augmenting Topologies
 
