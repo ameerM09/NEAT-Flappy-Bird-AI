@@ -17,7 +17,7 @@ MENU_FONT = pygame.font.SysFont('Comicsans', 35)
 
 END_SCREEN_FONT = pygame.font.SysFont('Comicsans', 35)
 
-CITYSCAPE_BG = pygame.transform.scale(pygame.image.load(os.path.join('assets', 'bg.png')), (WIN_WIDTH, WIN_HEIGHT))
+CITYSCAPE_BG = pygame.transform.scale(pygame.image.load(os.path.join('assets/bg.png')), (WIN_WIDTH, WIN_HEIGHT))
 
 WIN = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 pygame.display.set_caption(CAPTION)
