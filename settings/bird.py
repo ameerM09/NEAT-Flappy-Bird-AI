@@ -5,11 +5,11 @@ BIRD_HEIGHT = 42
 
 # List of bird animations
 BIRD_ASSETS = [
-	pygame.transform.scale(pygame.image.load(os.path.join('assets', 'bird1.png')), (BIRD_WIDTH, BIRD_HEIGHT)),
+	pygame.transform.scale(pygame.image.load(os.path.join('assets/bird1.png')), (BIRD_WIDTH, BIRD_HEIGHT)),
 
-	pygame.transform.scale(pygame.image.load(os.path.join('assets', 'bird2.png')), (BIRD_WIDTH, BIRD_HEIGHT)),
+	pygame.transform.scale(pygame.image.load(os.path.join('assets/bird2.png')), (BIRD_WIDTH, BIRD_HEIGHT)),
 
-	pygame.transform.scale(pygame.image.load(os.path.join('assets', 'bird3.png')), (BIRD_WIDTH, BIRD_HEIGHT))
+	pygame.transform.scale(pygame.image.load(os.path.join('assets/bird3.png')), (BIRD_WIDTH, BIRD_HEIGHT))
 ]
 
 # Specific class for the bird
