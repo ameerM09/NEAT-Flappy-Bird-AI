@@ -1,6 +1,6 @@
 from . import *
 
-OBSTACLE = pygame.transform.scale2x(pygame.image.load(os.path.join('assets', 'obstacle.png')))
+OBSTACLE = pygame.transform.scale2x(pygame.image.load(os.path.join('assets/obstacle.png')))
 
 class Obstacle():
 	OBJ_SPACING = 175
