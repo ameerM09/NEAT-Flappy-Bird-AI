@@ -1,6 +1,6 @@
 from . import *
 
-PLATFORM = pygame.transform.scale2x(pygame.image.load(os.path.join('assets', 'platform.png')))
+PLATFORM = pygame.transform.scale2x(pygame.image.load(os.path.join('assets/platform.png')))
 
 # Class for the platform
 class Platform():
